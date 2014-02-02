@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:extension:file:"
+                   em:package="content/" />
+  <RDF:Description RDF:about="rdf:#$oy9rZ"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="3.0"
+                   em:maxVersion="15.0" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="gregs_printreceipt_extension@sulliwood.org"
+                   em:name="printreceipt"
+                   em:version="2.0"
+                   em:creator="Greg Sullivan &lt;gregs@sulliwood.org&gt;"
+                   em:description="Print checkout receipt from LibraryWorld checkout page">
+    <em:targetApplication RDF:resource="rdf:#$oy9rZ"/>
+    <em:file RDF:resource="urn:mozilla:extension:file:"/>
+  </RDF:Description>
+</RDF:RDF>
